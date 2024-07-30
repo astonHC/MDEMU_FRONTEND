@@ -1,8 +1,12 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -pedantic
-LDFLAGS = -lSDL2
+## COPYRIGHT (C) HARRY CLARK 2024
 
-TARGET = main
+## SEGA MEGA DRIVE EMULATOR FRONTEND
+
+CC 				= gcc
+CFLAGS 			= -Wall -Wextra -pedantic
+LDFLAGS 		= -lSDL2
+
+TARGET 			= MDEMU
 
 all: $(TARGET)
 
@@ -13,4 +17,4 @@ main.o: main.c
 	$(CC) $(CFLAGS) -c main.c
 
 clean:
-	rm -f $(TARGET) *.o
+	rm -f $(TARGET)
