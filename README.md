@@ -1,4 +1,4 @@
-# SDL SAMPLE
+# MDEMU_FRONTEND
 
 Past of my [SEGA Mega Drive Emulator](https://github.com/hazzaaclark/MD68000)
 
